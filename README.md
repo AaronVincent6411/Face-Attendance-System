@@ -19,5 +19,5 @@ This will install required packages
 - in the final step run
 
 ```
-python3 main.py
+python3 facerecognition.py
 ```
