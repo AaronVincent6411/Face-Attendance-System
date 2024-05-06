@@ -122,8 +122,6 @@ def index():
 def generate_frames():
     path = 'dataset'
     encoded_faces, labels, label_dict = encode_images(path)
-    # print(label_dict)
-    # print(labels)
     
     knn = KNeighborsClassifier(n_neighbors=1)
     knn.fit(encoded_faces, labels)
